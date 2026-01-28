@@ -1,0 +1,109 @@
+# Python 虛擬環境
+.venv/
+venv/
+env/
+ENV/
+
+# Python 編譯/快取檔案
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# PyInstaller 打包產出
+build/
+dist/
+*.spec
+output/
+
+# 測試/覆蓋率產出
+.coverage
+coverage/
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# 編輯器與作業系統產生的檔案
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 日誌、臨時檔案與輸出
+*.log
+*.logs
+scrum_daily_logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# 打包時常見的額外產出資料夾
+*.egg-info/
+*.eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.manifest
+*.spec
+
+# 依賴管理工具產生的鎖定檔（視情況保留或忽略）
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# 如果你確定要提交 requirements.txt 就不要忽略它
+# requirements.txt
+
+# 其他常見的建置/開發工具產出
+*.egg
+*.eggs/
+*.so
+*.dylib
+*.dll
+*.exe  # 如果你有自己編譯的二進位檔
+*.pdb
+*.idb
+
+# Jupyter Notebook 檢查點
+.ipynb_checkpoints/
+
+# 如果有大型資料或模型檔（常見於 ML 專案）
+*.h5
+*.onnx
+*.pt
+*.pth
+*.bin
+*.weights
+*.ckpt
+models/
+data/
+*.zip
+*.tar.gz
+*.7z
+
+# 常見的 macOS / Windows 系統檔案
+.AppleDouble
+.LSOverride
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
