@@ -109,7 +109,7 @@ class ScrumHelperApp(ctk.CTk):
         ctk.CTkLabel(self.config_frame, text="SMTP 設定:", font=("Microsoft JhengHei", 14, "bold")).pack(side="left", padx=20, pady=15)
         self.email_entry = ctk.CTkEntry(self.config_frame, placeholder_text="你的 Gmail 帳號", width=200)
         self.email_entry.pack(side="left", padx=5, pady=10)
-        self.pw_entry = ctk.CTkEntry(self.config_frame, placeholder_text="應用程式密碼", width=200, show="*")
+        self.pw_entry = ctk.CTkEntry(self.config_frame, placeholder_text="你的 Gmail 密碼", width=200, show="*")
         self.pw_entry.pack(side="left", padx=5, pady=10)
 
         # --- 操作按鈕 ---
